@@ -1,12 +1,12 @@
 import { uid, newId } from './ids.js'
 
 export const DEFAULT_CONFIG = {
-  totalPoints: 201,
+  totalPoints: 240,
   fullPoint: 80,
   initialDropPoint: 20,
   middleDropPoint: 40,
-  reEntryPoint: 40,
-  newPlayerPoint: 40,
+  reEntryPoint: 2,
+  newPlayerPoint: 2,
 }
 
 export const CONFIG_FIELDS = [
